@@ -1,0 +1,16 @@
+[user]
+	email = dlebedev@psystems.biz
+	name = Dmitriy Lebedev
+[core]
+	fileMode = false
+	autocrlf = false
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    lg = log -p
+    lg2 = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    who = shortlog -s --
